@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary color for buttons and accents -->
+    <color name="colorPrimary">#00796B</color> <!-- Teal color for a modern and calming look -->
+    <color name="colorPrimaryDark">#004D40</color> <!-- Darker teal for status bar and dark mode -->
+    <color name="colorAccent">#FFB300</color> <!-- Dark yellow for accent color -->
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color> <!-- Very dark grey for primary text -->
+    <color name="textColorSecondary">#757575</color> <!-- Medium grey for secondary text -->
+
+    <!-- Background colors -->
+    <color name="backgroundLight">#FFFFFF</color> <!-- Pure white for the main background -->
+    <color name="backgroundDark">#F5F5F5</color> <!-- Very light grey for secondary backgrounds -->
+
+    <!-- Button and input field background -->
+    <color name="inputFieldBackground">#FFFFFF</color> <!-- White for input fields -->
+    <color name="buttonBackground">#00796B</color> <!-- Teal for buttons to match primary color -->
+
+    <!-- Divider color -->
+    <color name="dividerColor">#BDBDBD
+    </color> <!-- Light grey for dividers to maintain separation -->
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+
+
+</resources>

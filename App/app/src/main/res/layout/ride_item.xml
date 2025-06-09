@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pickup_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawablePadding="10dp"
+
+            android:gravity="center"
+            android:text="@string/pickup_location"
+            android:textColor="@color/quantum_black_100"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/baseline_location_on_24"
+            app:drawableTint="@color/red" />
+
+        <TextView
+            android:id="@+id/drop_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/drop_location"
+            android:textColor="@color/quantum_black_100"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/baseline_location_on_24"
+            app:drawableTint="@color/green" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/distance"
+            android:textColor="@color/quantum_black_100"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/baseline_near_me_24" />
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawablePadding="10dp"
+
+            android:gravity="center"
+            android:text="@string/money"
+            android:textColor="@color/quantum_black_100"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/driver"
+            android:textColor="@color/quantum_black_100"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/baseline_person_24" />
+
+        <Button
+            android:id="@+id/btnBooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
